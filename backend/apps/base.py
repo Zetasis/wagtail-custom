@@ -11,8 +11,7 @@ with open(PROJECT_DIR + '/apps/config.yaml') as config_file:
 
 INSTALLED_APPS = [
 
-    'home',
-    'search',
+    'apps.home',
 
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
