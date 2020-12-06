@@ -1,0 +1,5 @@
+base_url: www.zetasis.ml
+db_name: r1_zetasis_ml
+db_password: H5b76iaqofelya2021
+db_user: postgres
+wagtail_site_name: Wunderling Restaurant
