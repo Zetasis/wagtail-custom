@@ -25,7 +25,7 @@ def create_homepage(apps, schema_editor):
         content_type=homepage_content_type,
         path='00010001',
         depth=2,
-        numchild=5,
+        numchild=0,
         url_path='/home/',
         locale_id=1
     )
