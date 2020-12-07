@@ -2,19 +2,14 @@ from django.conf import settings
 from django.urls import include, path
 from django.contrib import admin
 
-
 from wagtail.admin import urls as wagtailadmin_urls
 from wagtail.core import urls as wagtail_urls
 from wagtail.documents import urls as wagtaildocs_urls
 
-
 from wagtail.contrib.sitemaps.views import sitemap
 from django.views.generic.base import TemplateView
 
-
-
 # ... the rest of your URLconf goes here ...
-
 
 urlpatterns = [
     path('django-admin/', admin.site.urls),
@@ -44,7 +39,3 @@ urlpatterns = urlpatterns + [
     # of your site, rather than the site root:
     #    path("pages/", include(wagtail_urls)),
 ]
-
-
-
-
