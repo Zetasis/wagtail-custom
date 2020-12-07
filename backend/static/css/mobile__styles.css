@@ -111,49 +111,12 @@ label { display: block; line-height: 40px; }
 input[type="text"] { padding-left: 16px !important; padding-right: 16px !important;}
 input[type="submit"], button { width: 100%; transition: 0.3s; font-size: 18px; font-weight: 600; padding: 10px 0px; border-radius: 4px; position: relative; text-align: center; }
 
-.blackwhitebutton { margin-top: 30px; transition: 0.3s; background: transparent; border: 1px solid #000; }
-.blackwhitebutton:hover {transition: 0.3s; color: #fff; background: #845ce8; border-color: #845ce8; }
 
-.purplewhite { margin-top: 30px; transition: 0.3s; color: #fff; background: #845ce8; border-color: #845ce8;}
-.purplewhite:hover {transition: 0.3s; background: transparent; border: 1px solid #000; color: #000; }
 
 .relative { position: relative; }
-
 .error { color: #F13131; padding: 10px 0 10px 20px; font-size: 16px; font-weight: 200; margin-bottom: 16px; border-radius: 6px; border: 1px solid rgb(241, 49, 49); }
-
-
 .width_100 { width: 100%; }
-
 main { height: 100%; margin: auto; }
-
-
-
-
-
-/*___HOME BANNER ___Slick */
-
-/*...FULL HEIGHT & FULL WIDTH */
-.home__banner,
-.home__banner .slick-list, 
-.home__banner .slick-track, 
-.home__banner .slick-slide,
-.home__banner .slick-slide > div,
-.home__banner .slick-slide > div .home__banner__inner
-{height: 100%; width: 100%;}
-
-/*...CONTENT STYLES */
-.home__banner .home__banner__inner {  width: 100%; background-position: center; background-repeat: no-repeat; background-size: cover; display: table !important; }
-.home__banner .home__banner__inner .content { display: table-cell; width: 100%; vertical-align: bottom; max-width: 66.666667%;}
-.home__banner .home__banner__inner .content .content_inner h2 { padding-top: 50px; font-size: 44px; line-height: 1; color: #1fc064; font-family: 'Bitter', serif; font-weight: 700; }
-.home__banner .home__banner__inner .content .content_inner p { margin: 30px 0 40px; font-size: 26px; line-height: 1.1; color: #fff; font-style: italic; font-family: 'Bitter', serif; font-weight: 400; }
-.home__banner .home__banner__inner .content .content_inner { max-width: 600px; margin: 0 0 0 94px; }
-
-/*...SLICK DOTS */
-.home__banner .slick-dots { position: absolute; right: 44px;top: 50% ; }
-.home__banner .slick-dots li { list-style: none; }
-.home__banner .slick-dots li button { width: 20px; height: 20px; padding: 0; border-radius: 100%; border: 2px solid #fff; background: none; font-size: 0; }
-.home__banner .slick-dots li button:hover{border:none;background: #1fc064 }
-.home__banner .slick-dots .slick-active button{border:none;background: #1fc064 }
 
 
 /* Transitions */
@@ -183,18 +146,6 @@ main { height: 100%; margin: auto; }
     }
 }
 /*END___HOME BANNER ___Slick */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -232,17 +183,3 @@ body.mmactive { overflow: hidden; }
 @media (min-width:992px) {
   #sm_menu_ham, .sm_menu_outer { display: none; }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
