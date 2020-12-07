@@ -1,9 +1,5 @@
 User-agent: *
-Allow: /speisekarte/
-Allow: /galerie
-Allow: /kontakt
-Allow: /uber-uns
-Allow: /impressum
+
 
 {# Disallow: /admin #}
 {# Disallow: /django-admin #}
