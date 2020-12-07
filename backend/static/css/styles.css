@@ -137,3 +137,21 @@ text-align: center; font-variant: normal; text-transform: none; line-height: 1em
 .icons__fax::before { content: '\E80F';}
 .icons__z::before { content: '\E80E'; }
 .icons__s::before { content: '\E80D';}
+
+
+
+/*DIST*/
+
+.z__main { max-width: 200px; margin: auto; background: #CE181E; padding-top: 400px; }
+.z__main .logo { margin: auto; background: #fff;padding-top: 4px;}
+.z__main .logo a {}
+.z__main .logo a img { width:100% }
+.z__main .logo p { margin: 6px 0 12px 0; font-size: 12px; font-weight: 300; text-align: center; color: #353535; }
+/*DIST*/
+
+
+
+
+
+
+

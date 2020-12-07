@@ -27,7 +27,9 @@ INSTALLED_APPS = [
 
     'modelcluster',
     'taggit',
-
+    'django_extensions', # For AutoSlugField
+    'django_user_agents', # For Mobile & dextop detect
+    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
